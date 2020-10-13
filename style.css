@@ -1,0 +1,168 @@
+
+
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Tablet Landscape */
+
+@media screen and (max-width: 1060px) {
+
+#primary { width:67%; }
+
+#secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+
+@media screen and (max-width: 768px) {
+#primary { width:100%; 
+}
+}
+
+#secondary { width:100%; margin:0; border:none; }
+
+.main{
+    background: rgb(63,94,251);
+    background: linear-gradient(135deg, rgba(63,94,251,1) 0%, rgba(156,141,209,1) 63%);
+}
+/* navbar */
+
+.logo{
+    width: 30%;
+}
+.navbar{
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(158, 124, 168);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(17, 17, 17);
+  }
+  
+  .active {
+    background-color: rgb(162, 143, 180);
+  }
+/* end of nav */
+  
+
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+
+  /* first page */
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#col1{
+    margin-left: 0px;
+    margin-top: 20px;
+    padding-top: 200px;
+}
+
+.col2 img{
+
+    width: 100px;
+    height: 50px;
+}
+
+/* form */
+.form{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+
+.head{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 50px;
+}
+
+.cont{
+    background-image: url('ass1.jpeg');
+}
+
+.colu{
+	float: left;
+	width: 250px;
+	padding: 50px;
+	margin: 20px;
+	border: solid 1px rgb(13, 10, 15);
+    border-radius: 10px;
+}
+
+.con{
+    display: block;
+    text-align: justify;
+}
+
+.con h1{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 50px;
+    position: fixed;
+    
+}
+
+.btn{
+    text-align: right;
+    background-color: aquamarine;
+    size: 300px;
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover { transform: scale(1.1); }
+
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    /* left:-35px;
+    right: 35px; */
+    width:300px;
+    height:100%;
+    margin: -5px;
+    display: ;
+    z-index:999;
+}
+
+/* adding overlay */
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+
+    
